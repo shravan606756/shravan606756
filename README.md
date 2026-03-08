@@ -1,4 +1,4 @@
-giut<p align="center">
+<p align="center">
 <img src="./readme.jpg" width="320">
 </p>
 
