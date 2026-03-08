@@ -10,7 +10,7 @@
 <img src="./download.gif" width="420">
 </p>
 
-████████████████████████████████████████████████
+▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
 
 ```diff
 + SYSTEM ONLINE
@@ -20,7 +20,7 @@
 + STATUS: BUILDING COOL THINGS
 ```
 
-████████████████████████████████████████████████
+▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
 
 ```bash
 > interests
@@ -37,10 +37,10 @@ Computer Networks
 Compiler Design
 ```
 
-████████████████████████████████████████████████
+▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
 
 ![stats](https://github-readme-stats.vercel.app/api?username=shravan606756\&show_icons=true\&theme=chartreuse-dark)
 
 ![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shravan606756\&layout=compact\&theme=chartreuse-dark)
 
-████████████████████████████████████████████████
+▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
