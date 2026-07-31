@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 632 370" width="632" height="370">
+<defs>
+    <filter id="purpleGlow">
+        <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+        <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</defs>
+<rect width="632" height="370" fill="#000000"/>
+<g font-family="JetBrains Mono, Cascadia Code, monospace" font-size="10px" xml:space="preserve" filter="url(#purpleGlow)">
+<text x="10" y="20.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="30.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="40.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="50.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="60.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%%%%%%%%%%</tspan><tspan fill="#111318">@@@@@</tspan></text>
+<text x="10" y="70.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%#%%%</tspan><tspan fill="#111318">@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%%##****++*+=--+%%</tspan><tspan fill="#111318">@@@@</tspan></text>
+<text x="10" y="80.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#*++=+%%%%%%%#*=---------==+=:..+%%</tspan><tspan fill="#111318">@@@@@</tspan></text>
+<text x="10" y="90.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#+-::-=-.=###+=-::::--==+++++=-:+#++%%</tspan><tspan fill="#111318">@@@@@@</tspan></text>
+<text x="10" y="100.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#+-....:=+-..=+-:::-===-::.......:*##*#%%</tspan><tspan fill="#111318">@@@@@@@</tspan></text>
+<text x="10" y="110.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#+-:...:-=++=-:::===---=+*########**####*#%%</tspan><tspan fill="#111318">@@@@@@@@</tspan></text>
+<text x="10" y="120.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#=:...:-=++==-:..-=***###**++**########*+==#%%</tspan><tspan fill="#111318">@@@@@@@@@</tspan></text>
+<text x="10" y="130.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%#*-:...:=++===--:.:*####****####%%%%%%%%%%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@</tspan></text>
+<text x="10" y="140.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#+-...:-=++==------:.-+=+*#########%%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="150.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%*+++====-:::..::::----::.:=++==+++++++**##%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="160.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%*+==-:..-=++++==--:.....::=++++++++++++++++++**#%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="170.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%%%%%*+=-:-==+++==-:....:---====++++++++===+%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="180.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%%%%#*+==---===-::...::----======---=#%%</tspan><tspan fill="#111318">@@@@@@@@@@@</tspan></text>
+<text x="10" y="190.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%##*=::----:...----------:..-#%%</tspan><tspan fill="#111318">@@@@@@@@@</tspan></text>
+<text x="10" y="200.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%#+-:..:===-------:...:*%</tspan><tspan fill="#111318">@@@@@@@@@</tspan></text>
+<text x="10" y="210.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%####*=-=++=------:.+*=*%%</tspan><tspan fill="#111318">@@@@@@@@</tspan></text>
+<text x="10" y="220.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%##+-...:=+=------:.+##*#%</tspan><tspan fill="#111318">@@@@@@@@@</tspan></text>
+<text x="10" y="230.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#*=:...:-=++=-----:.-*##*#%%</tspan><tspan fill="#111318">@@@@@@@@@@@</tspan></text>
+<text x="10" y="240.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%#%%</tspan><tspan fill="#111318">@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%#=:....-=++===----:..-*###*%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@</tspan></text>
+<text x="10" y="250.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#*+++++#%%%%%%%#*=:....:==++==-----::.:+####*#%%</tspan><tspan fill="#111318">@@@@@@@@@@@@</tspan></text>
+<text x="10" y="260.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%#+=:..:-+=-+***+=-:...:-=+++==-----::..-*####*#%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="270.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%##+-:...:-=++===++=--::--=+++==----::..:-+#####**%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="280.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%#+-::::-==+=--:-----------------::...:=*######**#%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="290.0"><tspan fill="#111318">@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%#*======-----=+++=:.:--------:::..::=+*#####***##%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="300.0"><tspan fill="#111318">@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%#*++++=:.:-+*****++==-::=+=-:....-=*#######**##%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="310.0"><tspan fill="#111318">@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%#*=-==--:::-=+*#%%%%%%%%%##++-:-+*#######***#%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="320.0"><tspan fill="#111318">@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%#+=---=*###%%%%%%%%</tspan><tspan fill="#111318">@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%*=::+##****##%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="330.0"><tspan fill="#111318">@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%#==+#%%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%*-=+#%%%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="340.0"><tspan fill="#111318">@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#E8EAED" stroke="#A855F7" stroke-width="0.15">%%%%%%</tspan><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="350.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+<text x="10" y="360.0"><tspan fill="#111318">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan></text>
+</g>
+</svg>
