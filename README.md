@@ -1,46 +1,37 @@
-<p align="center">
-<img src="./readme.jpg" width="320">
-</p>
+<table>
+<tr>
+<td width="52%">
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=00FF41&size=24&center=true&vCenter=true&width=700&lines=Shravan+Udawat;Computer+Science+Student;AI+%7C+ML+%7C+Systems;Building+Cool+Things" />
-</p>
+<img src="ascii-art.svg" width="100%"/>
 
-<p align="center">
-<img src="./download.gif" width="420">
-</p>
+</td>
 
-▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
+<td valign="top">
 
-```diff
-+ SYSTEM ONLINE
-+ USER: SHRAVAN UDAWAT
-+ ROLE: COMPUTER SCIENCE STUDENT
-+ MODE: DARK TERMINAL
-+ STATUS: BUILDING COOL THINGS
+```console
+$ celefetch
+
+shravan@india
+────────────────────────────
+
+Role       : CSE @ VIT Vellore
+Languages  : Java • Python • C • SQL
+Backend    : Spring Boot • REST APIs
+AI / ML    : RAG • FAISS • Whisper
+Cloud      : AWS
+DevOps     : Docker • GitHub Actions
+Database   : PostgreSQL • MySQL • SQL Server
+Tools      : Git • VS Code • IntelliJ
+OS         : Windows • Linux
+
+────────────────────────────
+
+GitHub     : shravan606756
+LinkedIn   : shravan-singh-udawat
+LeetCode   : shravan606756
+Email      : shravanudawat33@gmail.com
 ```
 
-▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
-
-```bash
-> interests
-AI
-Machine Learning
-Systems
-Competitive Programming
-```
-
-```bash
-> currently_learning
-Operating Systems
-Computer Networks
-Compiler Design
-```
-
-▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
-
-![stats](https://github-readme-stats.vercel.app/api?username=shravan606756\&show_icons=true\&theme=chartreuse-dark)
-
-![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shravan606756\&layout=compact\&theme=chartreuse-dark)
-
-▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░▓▒░
+</td>
+</tr>
+</table>
