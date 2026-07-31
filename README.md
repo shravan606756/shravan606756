@@ -1,9 +1,9 @@
 <table>
 <tr>
-<td width="58%" align="center" style="background-color:#000000;">
-<img src="ascii-art.svg" width="115%"/>
+<td width="50%" align="center" style="background-color:#000000;">
+<img src="ascii-art.svg" width="100%"/>
 </td>
-<td valign="top">
+<td width="50%" valign="top">
 
 ```console
 $ celefetch
