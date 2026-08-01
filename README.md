@@ -9,10 +9,11 @@
 $ celefetch
 shravan@india
 ────────────────────────────
-Role       : CSE @ VIT Vellore
+Education  : CSE @ VIT Vellore
+Interest   : Backend & Gen/Applied AI
 Languages  : Java • Python • C • SQL
 Backend    : Spring Boot • REST APIs
-AI / ML    : RAG • FAISS • Whisper
+AI / ML    : RAG • Sentence Transformers • Vector DB • Pandas • NumPy
 Cloud      : AWS
 DevOps     : Docker • GitHub Actions
 Database   : PostgreSQL • MySQL • SQL Server
