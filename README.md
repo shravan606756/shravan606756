@@ -17,7 +17,7 @@ AI / ML    : RAG • Sentence Transformers • Vector DB • Pandas • NumPy
 Cloud      : AWS
 DevOps     : Docker • GitHub Actions
 Database   : PostgreSQL • MySQL • SQL Server
-Tools      : Git • VS Code • IntelliJ
+Tools      : Git • VS Code • IntelliJ • PostMan
 OS         : Windows • Linux
 ────────────────────────────
 GitHub     : shravan606756
