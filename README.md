@@ -22,7 +22,6 @@ OS         : Windows • Linux
 ────────────────────────────
 GitHub     : shravan606756
 LinkedIn   : https://www.linkedin.com/in/shravan-singh-udawat-5178aa337/
-LeetCode   : shravan33
 Email      : shravanudawat33@gmail.com
 ```
 
