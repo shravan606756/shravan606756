@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
 
 <p align="center">
   <b>VIT Vellore &nbsp;·&nbsp; B.Tech Computer Science</b>
@@ -35,7 +35,7 @@ I am a final-year Computer Science undergraduate at VIT Vellore, focused on back
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a robust API layer.
 
-- Developed a Spring Boot backend exposing REST APIs over SQL Server data for recurring sales analytics.
+- Developed a Spring Boot backend exposing 5 REST APIs over SQL Server data for recurring sales analytics.
 - Wrote SQL Server stored procedures, functions, and triggers to support enterprise sales workflows.
 - Validated OutSystems CRUD operations to protect data integrity across the platform.
 - Built Power BI dashboards and SQL reports to monitor sales KPIs for business reporting.
@@ -83,9 +83,12 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 - Packaged the system for containerized deployment with Docker and Docker Compose.
 
 ### [Email Writer Service](https://github.com/shravan606756/email-writer-springboot)
-`Java` `Spring Boot` `GenAI` `REST API`
-> A backend service for automated, context-aware email generation.
-- Built a RESTful Spring Boot service that generates and templates context-aware emails through an integrated language model backend.
+`Java` `Spring Boot` `React` `Chrome Extension` `Gemini API` `REST API`
+> A Chrome extension that injects AI-generated reply controls directly into Gmail's compose UI, backed by a Spring Boot service.
+- Built a Spring Boot REST backend that integrates the Gemini API to generate email replies conditioned on the original message content.
+- Designed a mood-based generation system letting users select a tone (e.g. formal, casual, assertive) that is injected into the prompt to steer the generated reply's style.
+- Built a Chrome extension using React components injected into the Gmail DOM to render reply-generation buttons directly within the existing compose window, avoiding a separate standalone UI.
+- Structured the client-server integration around a stateless REST API, keeping the extension lightweight and the generation logic centralized on the backend.
 
 ### [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
 `Python` `NLP` `Scikit-learn` `Sentence Transformers` `Streamlit`
