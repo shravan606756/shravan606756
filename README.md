@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Applied%20Generative%20AI&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
 
 <p align="center">
   <b>VIT Vellore &nbsp;·&nbsp; B.Tech Computer Science</b>
@@ -15,7 +15,7 @@
 
 <br>
 
-> Designing backend systems and applied AI pipelines that hold up under real load: fault-tolerant services, deterministic state machines, and retrieval architectures engineered for correctness and latency at scale.
+> Building backend services and applied AI systems that hold up under real load: enterprise REST APIs on SQL/PostgreSQL backends, deterministic state machines for orchestration and recovery, simulation-guided decision agents, and embedding-based retrieval pipelines engineered for correctness and latency at scale.
 
 </div>
 
@@ -30,12 +30,12 @@ I am a final-year Computer Science undergraduate at VIT Vellore, focused on back
 
 ## Experience
 
-### BKT
-**Software Engineering Summer Intern** &nbsp;·&nbsp; *10 May 2026 – 30 June 2026*
+### Balkrishna Industries Limited (BKT)
+**Software Engineering Summer Intern** &nbsp;·&nbsp; *May 2026 – June 2026*
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a robust API layer.
 
-- Developed a Spring Boot backend exposing REST APIs over SQL Server data for recurring sales analytics.
+- Developed a Spring Boot backend exposing 5 REST APIs over SQL Server data for recurring sales analytics.
 - Wrote SQL Server stored procedures, functions, and triggers to support enterprise sales workflows.
 - Validated OutSystems CRUD operations to protect data integrity across the platform.
 - Built Power BI dashboards and SQL reports to monitor sales KPIs for business reporting.
