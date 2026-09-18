@@ -35,7 +35,7 @@ I am a final-year Computer Science undergraduate at VIT Vellore, focused on back
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a robust API layer.
 
-- Developed a Spring Boot backend exposing 5 REST APIs over SQL Server data for recurring sales analytics.
+- Developed a Spring Boot backend exposing REST APIs over SQL Server data for recurring sales analytics.
 - Wrote SQL Server stored procedures, functions, and triggers to support enterprise sales workflows.
 - Validated OutSystems CRUD operations to protect data integrity across the platform.
 - Built Power BI dashboards and SQL reports to monitor sales KPIs for business reporting.
