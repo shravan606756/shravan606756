@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=f5ecd7&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=e8d9b8" width="100%"/>
 
 <p align="center">
-  <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-0f2027?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/shravan-singh-udawat-5178aa337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-7a1f1f?style=for-the-badge&logo=gmail&logoColor=f5ecd7" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/shravan-singh-udawat-5178aa337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-7a1f1f?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/shravanudawat33/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
 </p>
 
@@ -22,10 +22,7 @@ I'm a Computer Science undergraduate at VIT Vellore, and most of what's below is
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shravan606756&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2c5364&icon_color=2c5364&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shravan606756&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2c5364&text_color=c9d1d9" width="41%" />
-
-<img src="https://streak-stats.demolab.com/?user=shravan606756&theme=tokyonight&hide_border=true&background=0d1117&ring=2c5364&fire=2c5364&currStreakLabel=2c5364" width="60%" />
+<img src="https://github-readme-stats.vercel.app/api?username=shravan606756&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b3423a&icon_color=b3423a&text_color=e8d9b8" width="60%" />
 
 </div>
 
@@ -103,17 +100,17 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0f2027?style=for-the-badge)
-![Whisper](https://img.shields.io/badge/Whisper-0f2027?style=for-the-badge)
-![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-0f2027?style=for-the-badge)
-![Vector Search](https://img.shields.io/badge/Vector_Search-0f2027?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-7a1f1f?style=for-the-badge)
+![Whisper](https://img.shields.io/badge/Whisper-7a1f1f?style=for-the-badge)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-7a1f1f?style=for-the-badge)
+![Vector Search](https://img.shields.io/badge/Vector_Search-7a1f1f?style=for-the-badge)
 
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-0f2027?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-7a1f1f?style=for-the-badge)
 
 **Databases**
 
@@ -148,7 +145,7 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=120&section=footer" width="100%"/>
 
 <sub>Open to opportunities in backend engineering, machine learning, and AI-integrated systems.</sub>
 
