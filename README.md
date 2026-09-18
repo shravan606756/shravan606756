@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
 
 <p align="center">
-  <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-1a1a2e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-0f2027?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/shravan-singh-udawat-5178aa337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://leetcode.com/u/shravanudawat33/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
 </p>
 
@@ -15,6 +15,19 @@
 Building backend services and applied AI systems that hold up under real load: enterprise REST APIs on SQL/PostgreSQL backends, deterministic state machines for orchestration and recovery, simulation-guided decision agents, and embedding-based retrieval pipelines engineered for correctness and latency at scale.
 
 I'm a Computer Science undergraduate at VIT Vellore, and most of what's below is a record of moving systems past the prototype stage — replacing fragile, manual workflows with services that degrade gracefully and recover on their own.
+
+<br>
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=shravan606756&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2c5364&icon_color=2c5364&text_color=c9d1d9" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shravan606756&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2c5364&text_color=c9d1d9" width="41%" />
+
+<img src="https://streak-stats.demolab.com/?user=shravan606756&theme=tokyonight&hide_border=true&background=0d1117&ring=2c5364&fire=2c5364&currStreakLabel=2c5364" width="60%" />
+
+</div>
 
 <br>
 
@@ -31,7 +44,7 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 <br>
 
-## Projects
+## Featured Projects
 
 **[ASTra](https://github.com/shravan606756/ASTra)** — A codebase comprehension tool that parses Java abstract syntax trees into a searchable, semantic index queried in plain English.
 `Java 21` `Spring Boot` `PostgreSQL` `pgvector` `JavaParser` `LLMs`
@@ -42,43 +55,27 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 **[Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)** — A closed-loop control system that optimizes HVAC energy consumption and occupant comfort through simulation-guided decision-making.
 `Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` `LLMs`
-- Built a stateless pipeline using a custom tool registry to decouple EnergyPlus physics simulations from the core decision-making loop.
-- Designed a decision engine where a Groq Llama 3.3 agent evaluates a matrix of simulated physical outcomes (energy usage, peak load, comfort) rather than applying fixed temperature heuristics.
-- Enforced schema safety with Pydantic validation across the orchestration layer and built fault-tolerant handling for subprocess exit codes from the C++ simulation engine.
-- Built a real-time Streamlit dashboard to visualize iteration progression, convergence metrics, and energy savings.
-
-**[TranscriptIQ](https://github.com/shravan606756/TranscriptIQ)** — A fault-tolerant audio intelligence pipeline that converts long-form podcast transcripts into precisely retrievable answers.
-`Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq`
-- Designed a multi-tier ingestion pipeline with prioritized transcript-cache reuse and Whisper-based transcription fallback, reducing speech-to-text latency by 85%.
-- Addressed transformer context-length constraints through boundary-aware text chunking and a metrics-driven Streamlit evaluation harness for tuning BART/T5 summarization inference.
-- Built a question-answering system combining FAISS approximate nearest-neighbor search over sentence embeddings with Llama-3.3 for context-grounded response generation, cutting information retrieval time by 65%.
+- Runs a stateless pipeline using a custom tool registry to decouple EnergyPlus physics simulations from the core decision-making loop.
+- Its decision engine has a Groq Llama 3.3 agent evaluate a matrix of simulated physical outcomes (energy usage, peak load, comfort) rather than applying fixed temperature heuristics.
+- Enforces schema safety with Pydantic validation across the orchestration layer, with fault-tolerant handling for subprocess exit codes from the C++ simulation engine.
+- Ships a real-time Streamlit dashboard visualizing iteration progression, convergence metrics, and energy savings.
 
 **[ResilientDB](https://github.com/shravan606756/ResilientDB-Engine)** — A pluggable backup orchestration engine that decouples core scheduling logic from database-specific backup implementations.
 `Java` `Spring Boot` `PostgreSQL` `AWS (EC2, RDS, ECR)` `Docker` `GitHub Actions`
-- Architected a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
-- Built an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
-- Modeled job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
+- Uses a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
+- Runs an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
+- Models job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
 
-**[Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)** — An end-to-end network traffic analysis system combining a high-performance C++ deep packet inspection engine with a Spring Boot orchestration backend.
-`C++` `Spring Boot` `Redis` `Docker` `Llama 3`
-- Built a multi-threaded C++ deep packet inspection engine using hash-based load distribution for five-tuple flow tracking and TLS SNI extraction.
-- Architected a Spring Boot orchestration layer with asynchronous process execution via ProcessBuilder and Redis-backed job state caching.
-- Integrated the Groq API (Llama 3) to generate automated traffic insight summaries from structured JSON analytics produced by the native C++ binary.
-- Packaged the system for containerized deployment with Docker and Docker Compose.
+<br>
 
-**[Email Writer Service](https://github.com/shravan606756/email-writer-springboot)** — A Chrome extension that injects AI-generated reply controls directly into Gmail's compose UI, backed by a Spring Boot service.
-`Java` `Spring Boot` `React` `Chrome Extension` `Gemini API` `REST API`
-- Built a Spring Boot REST backend that integrates the Gemini API to generate email replies conditioned on the original message content.
-- Designed a mood-based generation system letting users select a tone (e.g. formal, casual, assertive) that is injected into the prompt to steer the generated reply's style.
-- Built a Chrome extension using React components injected into the Gmail DOM to render reply-generation buttons directly within the existing compose window, avoiding a separate standalone UI.
-- Structured the client-server integration around a stateless REST API, keeping the extension lightweight and the generation logic centralized on the backend.
+## Other Projects
 
-**[Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)** — An interpretable NLP pipeline for explainable candidate-role matching and deterministic skill-gap feedback.
-`Python` `NLP` `Scikit-learn` `Sentence Transformers` `Streamlit`
-- Built a multi-stage matching system combining TF-IDF-based lexical relevance scoring with MiniLM transformer embedding similarity.
-- Designed a weighted linear aggregation model to balance keyword precision against contextual semantic similarity.
-- Built an explainability layer that surfaces the top contributing sentences behind each ranking decision and generates deterministic, skill-gap-driven improvement feedback.
-- Deployed the pipeline as an interactive Streamlit application for small-batch resume screening with visualized analytics.
+| Project | What it does | Stack |
+|---|---|---|
+| **[TranscriptIQ](https://github.com/shravan606756/TranscriptIQ)** | Fault-tolerant audio intelligence pipeline turning long-form podcast transcripts into precisely retrievable answers, with a multi-tier ingestion pipeline cutting speech-to-text latency by 85% and FAISS + Llama-3.3 retrieval cutting search time by 65%. | `Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq` |
+| **[Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)** | End-to-end network traffic analysis combining a multi-threaded C++ deep packet inspection engine (five-tuple flow tracking, TLS SNI extraction) with a Spring Boot orchestration layer and Groq-generated traffic insight summaries. | `C++` `Spring Boot` `Redis` `Docker` `Llama 3` |
+| **[Email Writer Service](https://github.com/shravan606756/email-writer-springboot)** | Chrome extension that injects AI-generated, tone-controlled reply drafts directly into Gmail's compose UI via a stateless Spring Boot + Gemini API backend. | `Java` `Spring Boot` `React` `Chrome Extension` `Gemini API` |
+| **[Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)** | Interpretable NLP pipeline for candidate-role matching, combining TF-IDF lexical scoring with MiniLM embedding similarity and an explainability layer that surfaces top-contributing sentences behind each ranking. | `Python` `Scikit-learn` `Sentence Transformers` `Streamlit` |
 
 <br>
 
@@ -106,17 +103,17 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-1a1a2e?style=for-the-badge)
-![Whisper](https://img.shields.io/badge/Whisper-1a1a2e?style=for-the-badge)
-![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-1a1a2e?style=for-the-badge)
-![Vector Search](https://img.shields.io/badge/Vector_Search-1a1a2e?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0f2027?style=for-the-badge)
+![Whisper](https://img.shields.io/badge/Whisper-0f2027?style=for-the-badge)
+![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-0f2027?style=for-the-badge)
+![Vector Search](https://img.shields.io/badge/Vector_Search-0f2027?style=for-the-badge)
 
 **Cloud & DevOps**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-1a1a2e?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-0f2027?style=for-the-badge)
 
 **Databases**
 
@@ -151,7 +148,7 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer" width="100%"/>
 
 <sub>Open to opportunities in backend engineering, machine learning, and AI-integrated systems.</sub>
 
