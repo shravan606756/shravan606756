@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20RAG%20Systems%20%C2%B7%20Resilient%20Infrastructure&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Applied%20Generative%20AI&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
 
 <p align="center">
   <b>VIT Vellore &nbsp;·&nbsp; B.Tech Computer Science</b>
@@ -15,23 +15,23 @@
 
 <br>
 
-> *Building the infrastructure other people defer: fault-tolerant pipelines, deterministic state machines, and retrieval systems that hold up under real load.*
+> Designing backend systems and applied AI pipelines that hold up under real load: fault-tolerant services, deterministic state machines, and retrieval architectures engineered for correctness and latency at scale.
 
 </div>
 
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
-## 👨‍💻 About Me
+## About Me
 
-I am a final year Computer Science undergraduate at VIT Vellore, focused on backend systems, retrieval-augmented generation, and cloud-native infrastructure. My work centers on taking a system from a fragile prototype to something that survives real load, through fault-tolerant pipelines, deterministic state machines, and infrastructure that recovers from failure instead of collapsing under it.
+I am a final-year Computer Science undergraduate at VIT Vellore, focused on backend systems, applied generative AI, and cloud-native infrastructure. My work centers on taking a system from a fragile prototype to something that survives production load, through fault-tolerant pipelines, deterministic state machines, and infrastructure that recovers from failure instead of collapsing under it.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
-## 💼 Experience
+## Experience
 
-### BKT
-**Software Engineering Summer Intern** &nbsp;·&nbsp; *May 10 2026 – June 30 2026*
+### Balkrishna Industries Limited (BKT)
+**Software Engineering Summer Intern** &nbsp;·&nbsp; *May 2026 – June 2026*
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a robust API layer.
 
@@ -42,62 +42,62 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### ⚡ ResilientDB
+### ResilientDB
 `Java` `Spring Boot` `PostgreSQL` `AWS (EC2, RDS, ECR)` `Docker` `GitHub Actions`
-> A pluggable backup orchestration engine built to eliminate core-logic coupling between database backends.
-- Architected a pluggable engine using the Strategy Pattern for seamless PostgreSQL, MySQL, and MongoDB backup orchestration.
-- Engineered an asynchronous worker pool with exponential backoff to suppress HTTP thread starvation under heavy load.
-- Reduced MTTR from hours to seconds with a deterministic state machine (PENDING → PROCESSING → COMPLETED/FAILED) backed by real-time health metrics.
+> A pluggable backup orchestration engine that decouples core scheduling logic from database-specific backup implementations.
+- Architected a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
+- Built an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
+- Modeled job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
 
-### ⚡ TranscriptIQ
+### TranscriptIQ
 `Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq`
-> A fault-tolerant audio intelligence pipeline that turns long podcast transcripts into precise, retrievable answers.
-- Architected a multi-tier ingestion pipeline with prioritized transcript reuse and Whisper fallback, cutting STT latency by 85 percent.
-- Solved long-context transformer limitations through boundary-aware chunking and a metrics-driven evaluation pipeline built in Streamlit to optimize BART/T5 inference.
-- Designed a RAG-based QA system using FAISS retrieval and semantic embeddings with Llama-3.3, cutting information retrieval time by 65 percent.
+> A fault-tolerant audio intelligence pipeline that converts long-form podcast transcripts into precisely retrievable answers.
+- Designed a multi-tier ingestion pipeline with prioritized transcript-cache reuse and Whisper-based transcription fallback, reducing speech-to-text latency by 85%.
+- Addressed transformer context-length constraints through boundary-aware text chunking and a metrics-driven Streamlit evaluation harness for tuning BART/T5 summarization inference.
+- Built a question-answering system combining FAISS approximate nearest-neighbor search over sentence embeddings with Llama-3.3 for context-grounded response generation, cutting information retrieval time by 65%.
 
-### ⚡ [ASTra](https://github.com/shravan606756/ASTra)
+### [ASTra](https://github.com/shravan606756/ASTra)
 `Java 21` `Spring Boot` `PostgreSQL` `pgvector` `JavaParser` `LLMs`
 > A codebase comprehension tool that parses Java abstract syntax trees into a searchable, semantic index queried in plain English.
-- Architected a Spring Boot REST service backed by PostgreSQL and pgvector for fast approximate nearest-neighbor (ANN) search over large codebases.
-- Engineered an adaptively batched, multithreaded indexing pipeline that reduced processing time by ~49% when parsing a 1,700+ class repository.
-- Designed a RAG pipeline with semantic chunking to feed LLMs (OpenAI, Ollama, Groq) under strict token budgets, delivering grounded answers with exact line-level source references.
-- Built a decoupled, interactive CLI companion and integrated automated retrieval-quality benchmarks to validate intent-match accuracy and latency.
+- Architected a Spring Boot REST service backed by PostgreSQL with the pgvector extension for approximate nearest-neighbor search over embedded code symbols.
+- Built an adaptively batched, multithreaded indexing pipeline that reduced processing time by ~49% when parsing a 1,700+ class repository.
+- Implemented semantic chunking and token-budget-aware context assembly to feed multiple LLM backends (OpenAI, Ollama, Groq), returning answers with exact line-level source references.
+- Built a decoupled, interactive CLI client and an automated benchmarking suite to measure retrieval-quality and latency regressions.
 
-### ⚡ [Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)
+### [Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)
 `C++` `Spring Boot` `Redis` `Docker` `Llama 3`
-> An end-to-end network traffic analysis system combining a high-performance C++ DPI engine with a Spring Boot orchestration backend and AI-powered insights.
-- Developed a multi-threaded C++ Deep Packet Inspection engine utilizing hash-based load distribution for Five-Tuple flow tracking and TLS SNI extraction.
-- Architected a Spring Boot orchestration layer featuring asynchronous execution via ProcessBuilder and Redis caching for job state management.
-- Integrated the Groq API (Llama 3) to deliver automated, AI-powered traffic insights based on structured JSON analytics generated by the native C++ binary.
-- Designed the system for scalable deployment across containerized environments using Docker and Docker Compose.
+> An end-to-end network traffic analysis system combining a high-performance C++ deep packet inspection engine with a Spring Boot orchestration backend.
+- Built a multi-threaded C++ deep packet inspection engine using hash-based load distribution for five-tuple flow tracking and TLS SNI extraction.
+- Architected a Spring Boot orchestration layer with asynchronous process execution via ProcessBuilder and Redis-backed job state caching.
+- Integrated the Groq API (Llama 3) to generate automated traffic insight summaries from structured JSON analytics produced by the native C++ binary.
+- Packaged the system for containerized deployment with Docker and Docker Compose.
 
-### ⚡ [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
+### [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
 `Python` `NLP` `Scikit-learn` `Sentence Transformers` `Streamlit`
 > An interpretable NLP pipeline for explainable candidate-role matching and deterministic skill-gap feedback.
-- Built a multi-stage hybrid matching system that computes lexical relevance via TF-IDF vectorization and semantic similarity using MiniLM transformer embeddings.
-- Engineered a hybrid scoring model with weighted linear aggregation to balance keyword precision with contextual meaning.
-- Developed an explainability layer that justifies ranking decisions by surfacing top contributing sentences and generates deterministic improvement feedback based on extracted skill gaps.
-- Deployed the end-to-end pipeline using Streamlit to facilitate interactive, small-batch resume screening and visualized analytics.
+- Built a multi-stage matching system combining TF-IDF-based lexical relevance scoring with MiniLM transformer embedding similarity.
+- Designed a weighted linear aggregation model to balance keyword precision against contextual semantic similarity.
+- Built an explainability layer that surfaces the top contributing sentences behind each ranking decision and generates deterministic, skill-gap-driven improvement feedback.
+- Deployed the pipeline as an interactive Streamlit application for small-batch resume screening with visualized analytics.
 
-### ⚡ [Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)
-`Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` `LLMs`[cite: 4]
-> An AI-driven closed-loop orchestration engine that optimizes HVAC energy consumption and occupant comfort via a Simulation-Guided Agent Architecture[cite: 4].
-- Engineered a stateless state-machine pipeline utilizing a custom ToolRegistry to decouple EnergyPlus physics simulations from the core LLM decision loop[cite: 4].
-- Designed an empirical reasoning engine where a Groq Llama 3.3 agent evaluates a mathematical matrix of physical outcomes (energy usage, peak load, comfort) instead of relying on raw temperature rules[cite: 4].
-- Implemented rigorous orchestration with Pydantic validation to ensure schema safety and built fault-tolerant diagnostic handling for subprocess C++ exit codes[cite: 4].
-- Developed a real-time Streamlit dashboard to visualize iteration progression, convergence metrics, and energy savings reports[cite: 4].
+### [Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)
+`Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` `LLMs`
+> A closed-loop control system that optimizes HVAC energy consumption and occupant comfort through simulation-guided decision-making.
+- Built a stateless pipeline using a custom tool registry to decouple EnergyPlus physics simulations from the core decision-making loop.
+- Designed a decision engine where a Groq Llama 3.3 agent evaluates a matrix of simulated physical outcomes (energy usage, peak load, comfort) rather than applying fixed temperature heuristics.
+- Enforced schema safety with Pydantic validation across the orchestration layer and built fault-tolerant handling for subprocess exit codes from the C++ simulation engine.
+- Built a real-time Streamlit dashboard to visualize iteration progression, convergence metrics, and energy savings.
 
-### ⚡ [Email Writer Service](https://github.com/shravan606756/email-writer-springboot)
+### [Email Writer Service](https://github.com/shravan606756/email-writer-springboot)
 `Java` `Spring Boot` `GenAI` `REST API`
-> An automated GenAI email orchestration tool.
-- Developed a robust RESTful backend service for automated, context-aware email generation and templating.
+> A backend service for automated, context-aware email generation.
+- Built a RESTful Spring Boot service that generates and templates context-aware emails through an integrated language model backend.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 <table>
   <tr>
@@ -124,7 +124,7 @@ Worked alongside SAP teams and business consultants to gather requirements and b
     <td>
       <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
       <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-      <img src="https://img.shields.io/badge/RAG-1a1a2e?style=flat-square" />
+      <img src="https://img.shields.io/badge/Embedding_Retrieval-1a1a2e?style=flat-square" />
       <img src="https://img.shields.io/badge/Vector_DBs-1a1a2e?style=flat-square" />
       <img src="https://img.shields.io/badge/Sentence_Transformers-1a1a2e?style=flat-square" />
     </td>
