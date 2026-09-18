@@ -2,14 +2,14 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f3460&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20RAG%20Systems%20%C2%B7%20Resilient%20Infrastructure&descAlignY=58&descSize=16&descColor=d0d0e0" width="100%"/>
 
-<sub>VIT Vellore &nbsp;·&nbsp; B.Tech Computer Science &nbsp;·&nbsp; Mumbai, Maharashtra, India</sub>
+<sub>VIT Vellore &nbsp;·&nbsp; B.Tech Computer Science</sub>
 
 <br><br>
 
 [![Email](https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-1a1a2e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shravanudawat33@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-1632_rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/shravanudawat33/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/shravanudawat33/)
 
 </div>
 
@@ -23,14 +23,14 @@
 
 ## About
 
-I am a final year Computer Science undergraduate at VIT Vellore, focused on backend systems, retrieval-augmented generation, and cloud-native infrastructure. My work centers on taking a system from a fragile prototype to something that survives real load, through fault-tolerant pipelines, deterministic state machines, and infrastructure that recovers from failure instead of collapsing under it. I have solved 400+ problems across LeetCode and GeeksforGeeks and hold Microsoft's Azure AI Engineer Associate certification.
+I am a final year Computer Science undergraduate at VIT Vellore, focused on backend systems, retrieval-augmented generation, and cloud-native infrastructure. My work centers on taking a system from a fragile prototype to something that survives real load, through fault-tolerant pipelines, deterministic state machines, and infrastructure that recovers from failure instead of collapsing under it. 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
 ## Experience
 
 ### Balkrishna Industries Limited (BKT) — Summer Intern
-*May 2026 to June 2026, Mumbai, Maharashtra*
+*May 2026 to June 2026*
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a proper API layer.
 
@@ -45,10 +45,8 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 
 ### ResilientDB
 *Java · Spring Boot · PostgreSQL · AWS (EC2, RDS, ECR) · Docker · GitHub Actions*
-`Jan 2026 – Mar 2026`
 
 A pluggable backup orchestration engine built to eliminate core-logic coupling between database backends.
-
 - Architected a pluggable engine using the Strategy Pattern for seamless PostgreSQL, MySQL, and MongoDB backup orchestration
 - Engineered an asynchronous worker pool with exponential backoff to suppress HTTP thread starvation under heavy load
 - Reduced MTTR from hours to seconds with a deterministic state machine (PENDING → PROCESSING → COMPLETED/FAILED) backed by real-time health metrics
@@ -56,13 +54,41 @@ A pluggable backup orchestration engine built to eliminate core-logic coupling b
 
 ### TranscriptIQ
 *Python · Transformers · FAISS · Whisper · Llama-3 via Groq*
-`Feb 2026 – Apr 2026`
 
 A fault-tolerant audio intelligence pipeline that turns long podcast transcripts into precise, retrievable answers.
-
 - Architected a multi-tier ingestion pipeline with prioritized transcript reuse and Whisper fallback, cutting STT latency by 85 percent
 - Solved long-context transformer limitations through boundary-aware chunking and a metrics-driven evaluation pipeline (latency, compression ratio, token distribution) built in Streamlit to optimize BART/T5 inference
 - Designed a RAG-based question answering system using FAISS retrieval and semantic embeddings with Llama-3.3 via Groq, cutting information retrieval time by 65 percent
+
+### [ASTra](https://github.com/shravan606756/ASTra)
+*Java · JavaParser · CLI*
+
+A Java codebase comprehension tool that performs abstract syntax tree analysis.
+- Engineered a semantic code search and dependency tracing tool leveraging JavaParser
+- Built interactive terminal tools (CLI) for deep codebase insights and semantic querying
+
+### [Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)
+*C++ · Spring Boot · Redis · Docker*
+
+A high-performance network analysis pipeline.
+- Developed a multi-threaded C++ Deep Packet Inspection engine featuring Five-Tuple flow tracking and TLS SNI extraction
+- Integrated the engine in a containerized environment with a Spring Boot backend and Redis
+
+### [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
+*Python · NLP · Vector Search*
+
+An advanced retrieval system for highly accurate document ranking.
+- Designed a search pipeline merging exact keyword matching (lexical) with dense vector embeddings (semantic) for superior retrieval accuracy
+
+### [Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)
+*Python · AI Agents*
+
+- Built an intelligent AI agent framework designed for autonomous environmental optimization and simulation looping
+
+### [Email Writer Service](https://github.com/shravan606756/email-writer-springboot)
+*Java · Spring Boot · GenAI*
+
+- Developed a robust RESTful backend service for automated, context-aware email generation and templating
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
@@ -106,22 +132,6 @@ A fault-tolerant audio intelligence pipeline that turns long podcast transcripts
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
 **Relevant Coursework:** Operating Systems &nbsp;·&nbsp; DBMS &nbsp;·&nbsp; Computer Networks &nbsp;·&nbsp; Software Engineering
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
-
-## Certifications
-
-| Certification | Issuer |
-|---|---|
-| Azure AI Engineer Associate | Microsoft |
-| AI, Infrastructure, Data Platform | Oracle AI and Cloud Foundations |
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
-
-## Beyond the Code
-
-- Core Member, Mozilla Firefox Club (VIT) — organized technical workshops and campus events, coordinating logistics and driving student participation
-- Solved 400+ DSA problems across LeetCode and GeeksforGeeks, with a LeetCode max rating of 1632
 
 <br>
 
