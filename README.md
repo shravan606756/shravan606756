@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-1a1a2e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shravanudawat33@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-1632_rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-1632_rating-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/shravanudawat33/)
 
 </div>
 
