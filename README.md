@@ -39,23 +39,47 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 **[ASTra](https://github.com/shravan606756/ASTra)** — A codebase comprehension tool that parses Java abstract syntax trees into a searchable, semantic index queried in plain English.
 `Java 21` `Spring Boot` `PostgreSQL` `pgvector` `JavaParser` `LLMs`
+
+<details>
+<summary>View details</summary>
+<br>
+
 - Architected a Spring Boot REST service backed by PostgreSQL with the pgvector extension for approximate nearest-neighbor search over embedded code symbols.
 - Built an adaptively batched, multithreaded indexing pipeline that reduced processing time by ~49% when parsing a 1,700+ class repository.
 - Implemented semantic chunking and token-budget-aware context assembly to feed multiple LLM backends (OpenAI, Ollama, Groq), returning answers with exact line-level source references.
 - Built a decoupled, interactive CLI client and an automated benchmarking suite to measure retrieval-quality and latency regressions.
 
-**[Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)** — A closed-loop control system that optimizes HVAC energy consumption and occupant comfort through simulation-guided decision-making.
-`Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` `LLMs`
-- Runs a stateless pipeline using a custom tool registry to decouple EnergyPlus physics simulations from the core decision-making loop.
-- Its decision engine has a Groq Llama 3.3 agent evaluate a matrix of simulated physical outcomes (energy usage, peak load, comfort) rather than applying fixed temperature heuristics.
-- Enforces schema safety with Pydantic validation across the orchestration layer, with fault-tolerant handling for subprocess exit codes from the C++ simulation engine.
-- Ships a real-time Streamlit dashboard visualizing iteration progression, convergence metrics, and energy savings.
+</details>
+
+<br>
+
+**[Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)** — A high-performance network traffic analysis platform combining a multi-threaded C++ deep packet inspection engine with a Spring Boot orchestration backend and AI-powered insights.
+`C++` `Spring Boot` `Redis` `Docker` `Llama 3`
+
+<details>
+<summary>View details</summary>
+<br>
+
+- Architected a multi-threaded C++ DPI engine with a load-balancer → fast-path worker pipeline, using five-tuple flow hashing to route packets deterministically and keep per-connection state race-free across threads.
+- Built a layered packet-parsing pipeline (Ethernet/IP/TCP/UDP) with TLS SNI and HTTP host extraction to classify traffic by application and domain, applying rule-based blocking and emitting structured JSON analytics.
+- Designed a Spring Boot orchestration layer that runs the native binary asynchronously via `ProcessBuilder`, with Redis-backed job-state and AI-response caching, and Groq (Llama 3.3-70B) generated traffic risk summaries.
+
+</details>
+
+<br>
 
 **[ResilientDB](https://github.com/shravan606756/ResilientDB-Engine)** — A pluggable backup orchestration engine that decouples core scheduling logic from database-specific backup implementations.
 `Java` `Spring Boot` `PostgreSQL` `AWS (EC2, RDS, ECR)` `Docker` `GitHub Actions`
+
+<details>
+<summary>View details</summary>
+<br>
+
 - Uses a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
 - Runs an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
 - Models job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
+
+</details>
 
 <br>
 
@@ -63,8 +87,8 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)** | Closed-loop control system that optimizes HVAC energy consumption and occupant comfort through simulation-guided decision-making, with a Groq Llama 3.3 agent evaluating a matrix of simulated physical outcomes rather than fixed temperature heuristics. | `Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` |
 | **[TranscriptIQ](https://github.com/shravan606756/TranscriptIQ)** | Fault-tolerant audio intelligence pipeline turning long-form podcast transcripts into precisely retrievable answers, with a multi-tier ingestion pipeline cutting speech-to-text latency by 85% and FAISS + Llama-3.3 retrieval cutting search time by 65%. | `Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq` |
-| **[Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)** | End-to-end network traffic analysis combining a multi-threaded C++ deep packet inspection engine (five-tuple flow tracking, TLS SNI extraction) with a Spring Boot orchestration layer and Groq-generated traffic insight summaries. | `C++` `Spring Boot` `Redis` `Docker` `Llama 3` |
 | **[Email Writer Service](https://github.com/shravan606756/email-writer-springboot)** | Chrome extension that injects AI-generated, tone-controlled reply drafts directly into Gmail's compose UI via a stateless Spring Boot + Gemini API backend. | `Java` `Spring Boot` `React` `Chrome Extension` `Gemini API` |
 | **[Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)** | Interpretable NLP pipeline for candidate-role matching, combining TF-IDF lexical scoring with MiniLM embedding similarity and an explainability layer that surfaces top-contributing sentences behind each ranking. | `Python` `Scikit-learn` `Sentence Transformers` `Streamlit` |
 
