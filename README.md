@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=f5ecd7&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI%20Agents&descAlignY=58&descSize=16&descColor=e8d9b8" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=f5ecd7&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI&descAlignY=58&descSize=16&descColor=e8d9b8" width="100%"/>
 
 <p align="center">
   <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-7a1f1f?style=for-the-badge&logo=gmail&logoColor=f5ecd7" alt="Email" /></a>
@@ -15,16 +15,6 @@
 Building backend services and applied AI systems that hold up under real load: enterprise REST APIs on SQL/PostgreSQL backends, deterministic state machines for orchestration and recovery, simulation-guided decision agents, and embedding-based retrieval pipelines engineered for correctness and latency at scale.
 
 I'm a Computer Science undergraduate at VIT Vellore, and most of what's below is a record of moving systems past the prototype stage — replacing fragile, manual workflows with services that degrade gracefully and recover on their own.
-
-<br>
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=shravan606756&show_icons=true&hide_border=true&bg_color=0d1117&title_color=b3423a&icon_color=b3423a&text_color=e8d9b8" width="60%" />
-
-</div>
 
 <br>
 
