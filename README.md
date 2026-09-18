@@ -14,7 +14,7 @@
 
 Building backend services and applied AI systems that hold up under real load: enterprise REST APIs on SQL/PostgreSQL backends, deterministic state machines for orchestration and recovery, simulation-guided decision agents, and embedding-based retrieval pipelines engineered for correctness and latency at scale.
 
-I'm a Computer Science undergraduate at VIT Vellore, and most of what's below is a record of moving systems past the prototype stage — replacing fragile, manual workflows with services that degrade gracefully and recover on their own.
+I'm a Computer Science undergraduate at VIT Vellore, and most of what's below is a record of moving systems past the prototype stage replacing fragile, manual workflows with services that degrade gracefully and recover on their own.
 
 <br>
 
