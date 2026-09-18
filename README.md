@@ -137,6 +137,6 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=120&section=footer" width="100%"/>
 
-<sub>Open to opportunities in backend engineering, machine learning, and AI-integrated systems.</sub>
+<sub>Open to opportunities in backend engineering, and AI-integrated systems.</sub>
 
 </div>
