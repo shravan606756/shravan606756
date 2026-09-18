@@ -35,7 +35,7 @@ I am a final-year Computer Science undergraduate at VIT Vellore, focused on back
 
 Worked alongside SAP teams and business consultants to gather requirements and build an internal analytics backend that replaced manual, repetitive aggregation queries with a robust API layer.
 
-- Developed a Spring Boot backend exposing REST APIs over SQL Server data for recurring sales analytics.
+- Developed a Spring Boot backend exposing 5 REST APIs over SQL Server data for recurring sales analytics.
 - Wrote SQL Server stored procedures, functions, and triggers to support enterprise sales workflows.
 - Validated OutSystems CRUD operations to protect data integrity across the platform.
 - Built Power BI dashboards and SQL reports to monitor sales KPIs for business reporting.
@@ -43,20 +43,6 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
 ## Featured Projects
-
-### ResilientDB
-`Java` `Spring Boot` `PostgreSQL` `AWS (EC2, RDS, ECR)` `Docker` `GitHub Actions`
-> A pluggable backup orchestration engine that decouples core scheduling logic from database-specific backup implementations.
-- Architected a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
-- Built an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
-- Modeled job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
-
-### TranscriptIQ
-`Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq`
-> A fault-tolerant audio intelligence pipeline that converts long-form podcast transcripts into precisely retrievable answers.
-- Designed a multi-tier ingestion pipeline with prioritized transcript-cache reuse and Whisper-based transcription fallback, reducing speech-to-text latency by 85%.
-- Addressed transformer context-length constraints through boundary-aware text chunking and a metrics-driven Streamlit evaluation harness for tuning BART/T5 summarization inference.
-- Built a question-answering system combining FAISS approximate nearest-neighbor search over sentence embeddings with Llama-3.3 for context-grounded response generation, cutting information retrieval time by 65%.
 
 ### [ASTra](https://github.com/shravan606756/ASTra)
 `Java 21` `Spring Boot` `PostgreSQL` `pgvector` `JavaParser` `LLMs`
@@ -66,22 +52,6 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 - Implemented semantic chunking and token-budget-aware context assembly to feed multiple LLM backends (OpenAI, Ollama, Groq), returning answers with exact line-level source references.
 - Built a decoupled, interactive CLI client and an automated benchmarking suite to measure retrieval-quality and latency regressions.
 
-### [Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)
-`C++` `Spring Boot` `Redis` `Docker` `Llama 3`
-> An end-to-end network traffic analysis system combining a high-performance C++ deep packet inspection engine with a Spring Boot orchestration backend.
-- Built a multi-threaded C++ deep packet inspection engine using hash-based load distribution for five-tuple flow tracking and TLS SNI extraction.
-- Architected a Spring Boot orchestration layer with asynchronous process execution via ProcessBuilder and Redis-backed job state caching.
-- Integrated the Groq API (Llama 3) to generate automated traffic insight summaries from structured JSON analytics produced by the native C++ binary.
-- Packaged the system for containerized deployment with Docker and Docker Compose.
-
-### [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
-`Python` `NLP` `Scikit-learn` `Sentence Transformers` `Streamlit`
-> An interpretable NLP pipeline for explainable candidate-role matching and deterministic skill-gap feedback.
-- Built a multi-stage matching system combining TF-IDF-based lexical relevance scoring with MiniLM transformer embedding similarity.
-- Designed a weighted linear aggregation model to balance keyword precision against contextual semantic similarity.
-- Built an explainability layer that surfaces the top contributing sentences behind each ranking decision and generates deterministic, skill-gap-driven improvement feedback.
-- Deployed the pipeline as an interactive Streamlit application for small-batch resume screening with visualized analytics.
-
 ### [Eco-Looping Building Agent](https://github.com/shravan606756/eco-looping-building-agent)
 `Python` `EnergyPlus` `Groq Llama 3.3` `Streamlit` `Pydantic` `LLMs`
 > A closed-loop control system that optimizes HVAC energy consumption and occupant comfort through simulation-guided decision-making.
@@ -90,10 +60,40 @@ Worked alongside SAP teams and business consultants to gather requirements and b
 - Enforced schema safety with Pydantic validation across the orchestration layer and built fault-tolerant handling for subprocess exit codes from the C++ simulation engine.
 - Built a real-time Streamlit dashboard to visualize iteration progression, convergence metrics, and energy savings.
 
+### [TranscriptIQ](https://github.com/shravan606756/TranscriptIQ)
+`Python` `Transformers` `FAISS` `Whisper` `Llama-3 via Groq`
+> A fault-tolerant audio intelligence pipeline that converts long-form podcast transcripts into precisely retrievable answers.
+- Designed a multi-tier ingestion pipeline with prioritized transcript-cache reuse and Whisper-based transcription fallback, reducing speech-to-text latency by 85%.
+- Addressed transformer context-length constraints through boundary-aware text chunking and a metrics-driven Streamlit evaluation harness for tuning BART/T5 summarization inference.
+- Built a question-answering system combining FAISS approximate nearest-neighbor search over sentence embeddings with Llama-3.3 for context-grounded response generation, cutting information retrieval time by 65%.
+
+### [ResilientDB](https://github.com/shravan606756/ResilientDB-Engine)
+`Java` `Spring Boot` `PostgreSQL` `AWS (EC2, RDS, ECR)` `Docker` `GitHub Actions`
+> A pluggable backup orchestration engine that decouples core scheduling logic from database-specific backup implementations.
+- Architected a Strategy Pattern-based engine supporting interchangeable PostgreSQL, MySQL, and MongoDB backup drivers without touching core orchestration code.
+- Built an asynchronous worker pool with exponential backoff retry logic to prevent HTTP thread-pool exhaustion during sustained backup load.
+- Modeled job lifecycle as a deterministic finite state machine (PENDING → PROCESSING → COMPLETED/FAILED) with real-time health metrics, cutting mean time to recovery from hours to seconds.
+
+### [Multi-Threaded DPI Engine](https://github.com/shravan606756/multi-threaded-dpi-engine)
+`C++` `Spring Boot` `Redis` `Docker` `Llama 3`
+> An end-to-end network traffic analysis system combining a high-performance C++ deep packet inspection engine with a Spring Boot orchestration backend.
+- Built a multi-threaded C++ deep packet inspection engine using hash-based load distribution for five-tuple flow tracking and TLS SNI extraction.
+- Architected a Spring Boot orchestration layer with asynchronous process execution via ProcessBuilder and Redis-backed job state caching.
+- Integrated the Groq API (Llama 3) to generate automated traffic insight summaries from structured JSON analytics produced by the native C++ binary.
+- Packaged the system for containerized deployment with Docker and Docker Compose.
+
 ### [Email Writer Service](https://github.com/shravan606756/email-writer-springboot)
 `Java` `Spring Boot` `GenAI` `REST API`
 > A backend service for automated, context-aware email generation.
 - Built a RESTful Spring Boot service that generates and templates context-aware emails through an integrated language model backend.
+
+### [Hybrid Lexical-Semantic Matching](https://github.com/shravan606756/hybrid-lexical-semantic-matching)
+`Python` `NLP` `Scikit-learn` `Sentence Transformers` `Streamlit`
+> An interpretable NLP pipeline for explainable candidate-role matching and deterministic skill-gap feedback.
+- Built a multi-stage matching system combining TF-IDF-based lexical relevance scoring with MiniLM transformer embedding similarity.
+- Designed a weighted linear aggregation model to balance keyword precision against contextual semantic similarity.
+- Built an explainability layer that surfaces the top contributing sentences behind each ranking decision and generates deterministic, skill-gap-driven improvement feedback.
+- Deployed the pipeline as an interactive Streamlit application for small-batch resume screening with visualized analytics.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a2e&height=2&section=header" width="100%"/>
 
