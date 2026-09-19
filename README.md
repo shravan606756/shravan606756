@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Shravan Singh Udawat — Backend Engineer · Cloud-Native Systems · Applied AI" width="100%"/>
+<img src="banner.png" alt="Shravan Singh Udawat — Backend Engineer · Cloud-Native Systems · Applied AI" width="100%"/>
 
 <p align="center">
   <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-7a1f1f?style=for-the-badge&logo=gmail&logoColor=f5ecd7" alt="Email" /></a>
