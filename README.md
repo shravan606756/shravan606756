@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=170&section=header&text=Shravan%20Singh%20Udawat&fontSize=40&fontColor=f5ecd7&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%C2%B7%20Cloud-Native%20Systems%20%C2%B7%20Applied%20AI&descAlignY=58&descSize=16&descColor=e8d9b8" width="100%"/>
+<img src="assets/banner.png" alt="Shravan Singh Udawat — Backend Engineer · Cloud-Native Systems · Applied AI" width="100%"/>
 
 <p align="center">
   <a href="mailto:shravanudawat33@gmail.com"><img src="https://img.shields.io/badge/Email-shravanudawat33%40gmail.com-7a1f1f?style=for-the-badge&logo=gmail&logoColor=f5ecd7" alt="Email" /></a>
@@ -163,10 +163,8 @@ Worked alongside SAP teams and business consultants to replace manual, repetitiv
 
 <br>
 
+<hr>
+
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b0a0a,50:7a1f1f,100:2b0a0a&height=120&section=footer" width="100%"/>
-
 <sub>Open to opportunities in backend engineering, and AI-integrated systems.</sub>
-
 </div>
